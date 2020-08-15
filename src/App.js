@@ -30,7 +30,7 @@ function App() {
 
 
   return (
-    <div className={temperature.main == undefined ? 'app' :  calcCelisus(temperature.main.temp) > 20 ? 'app warm' : 'app'}>
+    <div className={temperature.main == undefined ? 'app' :  calcCelisus(temperature.main.temp) > 20 ? 'app warm' : 'app cold'}>
       <main>
         
         <div className="search-box">

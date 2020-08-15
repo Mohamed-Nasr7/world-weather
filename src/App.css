@@ -13,17 +13,24 @@
 
 
 .app{
-  background: url('./assets/cold-bg.jpg');
+  background: url('./assets/photo-1581150257735-1c93ea8306ef.jpg');
   background-size: cover;
   background-position: center;
-  max-width: 600px;
-  margin: 0 auto;
+  
+}
+
+.cold, .warm{
+  background-size: cover;
 }
 
 .app.warm{
-  background: url('./assets/warm-bg.jpg');
-  background-size: cover;
+  background: url('./assets/john-towner-CakC6u4d95g-unsplash.jpg');
   background-position: center;
+}
+
+.app.cold{
+  background: url('./assets/F9g2FiPUSyC7IybhyI2p_09.jpg');
+  background-position: center 20%;
 }
 
 
