@@ -8,7 +8,7 @@ function App() {
 
   const api = {
     key: "02fb28458ed00ab88f68b06695b72173",
-    baseUrl: "http://api.openweathermap.org/data/2.5/"
+    baseUrl: "https://api.openweathermap.org/data/2.5/"
   }
 
   const search = (e) => {
@@ -57,7 +57,7 @@ function App() {
             
             <div className="weather-box">
               <div className="temp">{calcCelisus(temperature.main.temp)}°C</div>
-              <div> <img src={`http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`} /> </div>
+              <div> <img src={`https://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`} /> </div>
               <div className="weather"> {temperature.weather[0].main} </div>
             </div>
             
